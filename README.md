@@ -40,5 +40,5 @@ CREATE TABLE bmi_records (
 );
 ```
 
-## 💡 Output
+##  Output
 The app calculates the BMI and categorizes it as Underweight, Normal, Overweight, or Obese.
