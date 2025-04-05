@@ -1,8 +1,8 @@
-# HEALTH RISK FACTOR Calculator Website
+## HEALTH RISK FACTOR Calculator Website
 
 This project is a full-stack web application that calculates Body Mass Index (BMI) and stores user data using Node.js and PostgreSQL.
 
-## 🧩 Project Structure
+## Project Structure
 
 - `index.html` - Frontend HTML form
 - `styles.css` - CSS for styling the form
@@ -10,7 +10,7 @@ This project is a full-stack web application that calculates Body Mass Index (BM
 - `server.js` - Express.js backend server
 - `README.md` - This file
 
-## 🚀 Run Locally
+## Run Locally
 
 ### Frontend
 Just open `index.html` in your browser.
@@ -39,11 +39,6 @@ CREATE TABLE bmi_records (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-
-### Update Database Credentials
-Edit `server.js` and replace:
-- `your_db_user`
-- `your_db_password`
 
 ## 💡 Output
 The app calculates the BMI and categorizes it as Underweight, Normal, Overweight, or Obese.
